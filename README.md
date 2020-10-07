@@ -23,7 +23,7 @@ You can use branches below in -b option.
 
 <img align="left" height='34' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png' />
 
-<img align="left" height='34' src='https://raw.githubusercontent.com/github/explore/56a826d05cf762b2b50ecbe7d492a839b04f3fbf/topics/laravel/laravel.png' />
+<img height='34' src='https://raw.githubusercontent.com/github/explore/56a826d05cf762b2b50ecbe7d492a839b04f3fbf/topics/laravel/laravel.png' />
 
 - vue
 - react
