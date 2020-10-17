@@ -2,7 +2,8 @@ version: '3.8'
 
 services:
   web:
-    build: ./docker/node
+    # build: ./docker/node
+    image: shunyaendoh1215/node_vue
     volumes:
       - '.:/app'
     ports:
