@@ -1,33 +1,32 @@
 <h1 align="center">
 <img height='34' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png' />
- Docker files
-<img height='34' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png' />
+ Vue.js w/ Docker
+<img height='34' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png' />
 </h1>
 
-> Docker compose files
+> Docker compose file
 
 ## 👍 Usage
 
 ```sh
-// clone docker template
-$ git clone -b [lang] https://github.com/shunyaendoh1215/docker-file.git
+// build containers
+$ docker-compose build
 
-ex.) git clone -b vue https://github.com/shunyaendoh1215/docker-file.git
+// start containers(in background)
+$ docker-compose up -d
+
+// enter container's bash
+$ docker-compose exec web /bin/sh
+
+// just started
+$ vue create {app_name}
 ```
 
-## 🐿 Branches
-
-You can use branches below as -b option.
-
-<img align="left" height='34' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png' />
-
-<img align="left" height='34' src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png' />
-
-<img height='34' src='https://raw.githubusercontent.com/github/explore/56a826d05cf762b2b50ecbe7d492a839b04f3fbf/topics/laravel/laravel.png' />
-
-- vue
-- react
-- laravel-vue
+```sh
+$ exit
+$ docker-compose down
+$ docker-compose up -d
+```
 
 ## 👤 Author
 

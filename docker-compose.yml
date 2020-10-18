@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    # build: ./docker/node # local build
+    image: shunyaendoh1215/node # docker hub
+    volumes:
+      - '.:/app'
+    ports:
+      - '8080:8080'
+    stdin_open: true
