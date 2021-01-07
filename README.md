@@ -10,9 +10,9 @@
 
 ```sh
 // clone docker template
-$ git clone -b [lang] https://github.com/shunyaendoh1215/docker-file.git
+$ git clone -b [lang] https://github.com/esh2n/docker-file.git
 
-ex.) git clone -b vue https://github.com/shunyaendoh1215/docker-file.git
+ex.) git clone -b vue https://github.com/esh2n/docker-file.git
 ```
 
 ## 🐿 Branches
@@ -33,15 +33,15 @@ You can use branches below as -b option.
 
 shunyaendoh1215
 
-- GitHub [shunyaendoh1215](https://github.com/shunyaendoh1215)
+- GitHub [shunyaendoh1215](https://github.com/esh2n)
 
 ## 📝 License
 
-Copyright © 2020 [shunyaendoh1215](https://github.com/shunyaendoh1215).<br />
+Copyright © 2020 [esh2n](https://github.com/esh2n).<br />
 This project is MIT licensed.
 
 <p align="center">
-  <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fshunyaendoh1215%2Fmarkup-template">
+  <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%esh2n%2Fmarkup-template">
 </p>
 
 ---
